@@ -7,7 +7,7 @@ Use **Use this template** to create your own repository, clone it, complete the
 starter TODOs, and commit and push your work. Submit the files and evidence
 listed in the assignment through Blackboard.
 
-Complete 100-point Course Project due Monday, October 12, 2026 at 11:59 PM Central. Tuesday, October 6 is Fall Break.
+Complete 100-point Course Project due Friday, October 16, 2026 at 11:59 PM Central. Tuesday, October 6 is Fall Break.
 
 ## Files
 - `doubly_linked_list.py` -- sentinel-based DLL: complete `add_to_front`, `remove`, `move_to_front`

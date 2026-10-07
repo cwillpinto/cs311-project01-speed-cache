@@ -43,7 +43,7 @@ Your job is to finish it — correctly, efficiently, and safely under multiple t
    - Run `python -m unittest test_lru.py` — every test must pass.
    - Run the supplied `simulate_hitrate.py` with the **same sequence** of simulated page requests at several `capacity` values. Report each hit rate and explain the observed difference. You may extend the script, but a hit-rate result is workload evidence, not proof of O(1) operation cost.
 
-**Complete Project 1 is due Monday, October 12, 2026 at 11:59 PM Central.** Tuesday, October 6 is Fall Break; the Thursday, October 8 session supports the complete project.
+**Complete Project 1 is due Friday, October 16, 2026 at 11:59 PM Central.** Tuesday, October 6 is Fall Break; the Thursday, October 8 session supports the complete project.
 
 ---
 
@@ -74,7 +74,7 @@ Your job is to finish it — correctly, efficiently, and safely under multiple t
 | :--- | :--- |
 | Tuesday, October 6 | Fall Break — no class. |
 | Thursday, October 8 | One 75-minute architecture, build, and verification session. |
-| Monday, October 12, 11:59 PM Central | Complete 100-point Project 1 due in Course Projects. |
+| Friday, October 16, 11:59 PM Central | Complete 100-point Project 1 due in Course Projects. |
 
 Submit `README.md`, `DESIGN.md`, `doubly_linked_list.py`, `lru_cache.py`, your hit-rate evidence for multiple capacities, a complexity justification for `get`, `put`, and eviction, and the full `python verify_project1.py` transcript including map/list invariant and contention checks and the Success Token. Include any modified `simulate_hitrate.py` and `test_lru.py`.
 
