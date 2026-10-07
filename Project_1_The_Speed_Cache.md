@@ -13,7 +13,7 @@ A CDN edge server can only hold a small slice of the internet in fast memory at 
 
 Both operations — lookup and "mark as most recent" — must happen in **O(1)** time, no matter how many pages are cached. A Python `dict` alone gives you O(1) lookup but no ordering; a Python `list` alone gives you ordering but O(n) reordering. The LRU Cache solves this by wiring a hash map's *keys* directly to *nodes* inside a doubly linked list, so both structures update in lockstep.
 
-Your `LRUCache` class (scaffolded in Thursday's live build) already has the skeleton:
+Your starter `LRUCache` class already has the skeleton:
 ```python
 class LRUCache:
     def __init__(self, capacity):
@@ -43,7 +43,7 @@ Your job is to finish it — correctly, efficiently, and safely under multiple t
    - Run `python -m unittest test_lru.py` — every test must pass.
    - Run the supplied `simulate_hitrate.py` with the **same sequence** of simulated page requests at several `capacity` values. Report each hit rate and explain the observed difference. You may extend the script, but a hit-rate result is workload evidence, not proof of O(1) operation cost.
 
-**Complete Project 1 is due Friday, October 16, 2026 at 11:59 PM Central.** Tuesday, October 6 is Fall Break; the Thursday, October 8 session supports the complete project.
+**Complete Project 1 is due Friday, October 16, 2026 at 11:59 PM Central.** Tuesday, October 6 is Fall Break. Tuesday and Thursday have no required on-campus class; you may work on Project 1 in the classroom or elsewhere, or be absent. Thursday includes a brief optional wiring demonstration and project handoff.
 
 ---
 
@@ -72,8 +72,8 @@ Your job is to finish it — correctly, efficiently, and safely under multiple t
 
 | Date | Goal |
 | :--- | :--- |
-| Tuesday, October 6 | Fall Break — no class. |
-| Thursday, October 8 | One 75-minute architecture, build, and verification session. |
+| Tuesday, October 6 | Fall Break — no required class. Optional classroom or independent Project 1 work; attendance is not required. |
+| Thursday, October 8 | Optional classroom Project 1 work after a brief wiring demonstration; work elsewhere or be absent if preferred. |
 | Friday, October 16, 11:59 PM Central | Complete 100-point Project 1 due in Course Projects. |
 
 Submit `README.md`, `DESIGN.md`, `doubly_linked_list.py`, `lru_cache.py`, your hit-rate evidence for multiple capacities, a complexity justification for `get`, `put`, and eviction, and the full `python verify_project1.py` transcript including map/list invariant and contention checks and the Success Token. Include any modified `simulate_hitrate.py` and `test_lru.py`.
